@@ -1,0 +1,36 @@
+h2
+{
+	color:red;
+}
+
+h3
+{
+	color: green;
+	padding-left: 50px
+}
+li
+{
+	border: groove;
+	list-style-type: none;
+}
+
+div
+{
+	width: 300px;
+	border:	double;
+	position: relative;
+
+}
+#tab_jeu
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#Genre_jeu,#Nom_jeu
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}

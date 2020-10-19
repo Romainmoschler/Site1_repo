@@ -1,0 +1,53 @@
+<!Doctype Html>
+<HTML>
+	<HEAD>
+		<meta charset="utf-8"/>
+		<title>Gabarie</title>
+		<lang = "fr"/>
+		<style type="text/css"></style>
+		<link rel="stylesheet" type="text/css" href="../css/Tableau_jeu.css"> 
+		<link rel="shortcut icon" type="image/x-icon" href=""> 
+	</HEAD>
+	<BODY>
+		<header></header>             
+		<h2 id="nom_tab">Tableau de Jeu</h2>
+	<div id="tab_jeu">
+		<div id="Genre_jeu">
+			<h3>Genre</h3>
+			<ul>
+				<li>RPG</li>
+				<li>FPS</li>
+				<li>Reflexion</li>
+				<li>FPS</li>
+
+			</ul>
+		</div>
+		<div id="Nom_jeu">
+			<h3>Jeu</h3>
+			<ul>
+				<li>Kingdom Heart</li>
+				<li> Valorant</li>
+				<li>Heartstone</li>
+				<li>Call of Duty</li>
+			</ul>
+		</div>
+	</div>
+	<button id="affiche" onclick="afficheDiv()">Affiche/Masquer</button>
+
+	<script type="text/javascript">
+function afficheDiv()
+{
+	if (document.getElementById("Genre_jeu").style.visibility == "visible") 
+	{
+		document.getElementById("Genre_jeu").style.visibility = "hidden";
+	}
+	else
+	{
+		document.getElementById("Genre_jeu").style.visibility = "visible";
+	}
+}
+
+	</script>
+		<footer ></footer>             
+	</BODY>
+</HTML>
